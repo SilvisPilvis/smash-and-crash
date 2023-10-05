@@ -6,4 +6,5 @@
 .smashButton {
     width: 30%;
     height: calc(100vh / 3 * 2);
+    background-color: violet;
 }

@@ -12,4 +12,8 @@ body{
     width: 30%;
     height: calc(100vh / 3 * 2);
     background-color: violet;
+    transition: background-color 0.2s ease;
+    &:hover {
+        background-color: rgb(134, 72, 134);
+    }
 }

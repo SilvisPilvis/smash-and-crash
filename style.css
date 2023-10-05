@@ -1,8 +1,13 @@
+body{
+    color: white;
+}
+
 .crashButton{
     width: fit-content;
     padding: 1rem 2rem 1rem 2rem;
     background-color: blue;
 }
+
 .smashButton {
     width: 30%;
     height: calc(100vh / 3 * 2);

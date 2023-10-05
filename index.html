@@ -10,7 +10,14 @@
     <div class="imgDiv">
         <img src="https://media.makeameme.org/created/yay-big-changus.jpg">
     </div>
-    <button class="smashButton">Smash</button>
-    <button class="crashButton">Crash</button>
+    <button class="smashButton" onclick="changus()">Smash</button>
+		<button class="crashButton" >Crash</button>
+	<script>
+		function changus() {
+			let audio = new Audio('chungus.mp3');
+			audio.loop = false;
+			audio.play();
+		}
+	</script>
 </body>
 </html>
